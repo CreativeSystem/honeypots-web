@@ -1,1 +1,0 @@
-{"ast":null,"code":"export * from './axios';","map":{"version":3,"sources":["/home/kros/Desktop/www/creative/HoneyPots/honeypots-web/src/api/index.ts"],"names":[],"mappings":"AAAA,cAAc,SAAd","sourcesContent":["export * from './axios'\n"]},"metadata":{},"sourceType":"module"}
