@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from \"@/modules/home\";","map":{"version":3,"sources":["/home/kros/Desktop/www/creative/HoneyPots/honeypots-web/src/pages/index.tsx"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,gBAAxB","sourcesContent":["export { default } from \"@/modules/home\"\n"]},"metadata":{},"sourceType":"module"}
