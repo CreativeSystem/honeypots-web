@@ -1,6 +1,7 @@
 import Link from "next/link"
 
 import Header from "@/components/Header"
+import Slider from "@/components/Slider"
 import Text from "@/components/Text"
 import { Button } from "@material-ui/core"
 import { AcUnit } from "@material-ui/icons"
@@ -10,7 +11,7 @@ import { Container, BodyContainer } from "./styles"
 const Home: React.FC = () => {
   return (
     <Container>
-      <Header page="Home" />
+      <Header />
 
       <BodyContainer>
         <Text size="title.lg">Hello Demo</Text>
@@ -20,6 +21,7 @@ const Home: React.FC = () => {
             AcUnit
           </Button>
         </Link>
+        <Slider />
       </BodyContainer>
     </Container>
   )

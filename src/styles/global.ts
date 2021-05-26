@@ -9,14 +9,14 @@ export default createGlobalStyle`
   }
 
   body {
-    background-color: ${({ theme }) => theme.colors.magnolia};
-    color:  ${({ theme }) => theme.colors.smokyBlack};
+    background-color: ${({ theme }) => theme.colors.white};
+    color:  ${({ theme }) => theme.colors.black};
     font-size: 16px;
   }
 
   ::selection {
-  color:${({ theme }) => theme.colors.magnolia};
-  background: ${({ theme }) => theme.colors.deepSpaceSparkle};
+  color:${({ theme }) => theme.colors.black};
+  background: ${({ theme }) => theme.colors.yellow};
 }
 
   #__next{
